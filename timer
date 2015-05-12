@@ -2,12 +2,31 @@
  
 import time
 import colors as c
-seconds =0
-
+hundredths = 0
+seconds = 0
+minutes = 0
+hours = 0
+days = 0
 while True:
-    print(c.clear)
-    print("control c = stop") 
-    print(seconds)
-    time.sleep(1)
-    seconds += 1 
-    
+    print(c.clear + c.cyan + '[Control-C to stop] ' + c.reset)
+    print(days)
+    print(hours)
+    print(minutes)
+    print(seconds)  
+    print(hundredths)
+    time.sleep(0.01)
+    hundredths += 1 
+    if hundredths == 100:
+        hundredths = 0
+        seconds += 1
+    if seconds == 60:
+       seconds = 0
+       minutes += 1
+    if minutes == 60:
+       minutes = 0
+       hours = 1
+    if hours == 24:
+       hours = 0
+       days += 1
+       
+
