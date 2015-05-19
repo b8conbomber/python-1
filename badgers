@@ -3,6 +3,11 @@
 import colors as c
 import time
 
+snake'''
+
+
+'''
+
 while True:
     for count in range(4):
         for count in range(11):
