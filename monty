@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+print(c.clear + c.yellow + ''''
+Who would cross the bridge of Death
+Must answer me these guestions three
+'Ere the other side he see.
+'''' + c.reset 
+
+def prompt(question):
+    print(question )
+    answer = input('> ' + c.base3)
+    print(c.reset)
+    return answer 
+
+name = prompt('What is your name? ')
+name = prompt('What is your quest? ')
+color = prompt('What is your favorite color') 
+
+if name == 'Lancelot' or name == 'Galahad':
+    color = prompt
+
