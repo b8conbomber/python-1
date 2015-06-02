@@ -16,8 +16,7 @@ def prompt(question):
 
 name = prompt('What is your name? ')
 name = prompt('What is your quest? ')
-color = prompt('What is your favorite color') 
 
 if name == 'Lancelot' or name == 'Galahad':
-    color = prompt
+    color = prompt('What is your favorite color') 
 
