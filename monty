@@ -6,17 +6,37 @@ print(c.clear + c.yellow + ''''
 Who would cross the bridge of Death
 Must answer me these guestions three
 'Ere the other side he see.
-'''' + c.reset 
+''' + c.reset) 
 
 def prompt(question):
     print(question )
-    answer = input('> ' + c.base3)
+    answer = input('> ' + c.base3).lower().strip()
     print(c.reset)
     return answer 
 
+def live():
+    print(c.green + "Right, off you go then." + c.reset)
+
+def die():
+    print("Thou art cast into the Gorge of Eternal peril")
+
 name = prompt('What is your name? ')
-name = prompt('What is your quest? ')
+quest = prompt('What is your quest? ')
 
-if name == 'Lancelot' or name == 'Galahad':
+if name ==['lancelot','galahad']:
     color = prompt('What is your favorite color') 
+    if color == 'blue':
+        live()
+        print('Right of you go then')
+    else:
+        die()
 
+elif name == 'robin':
+    capital = prompt print('what is the capital of assyria')
+    if capital in ['assur',ashur
+        live()
+    else:
+        die()
+
+elif name == 'arthur 
+    speed = prompt
