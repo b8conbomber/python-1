@@ -39,4 +39,6 @@ elif name == 'robin':
         die()
 
 elif name == 'arthur 
-    speed = prompt
+    speed = prompt('what is the air speed velocity of anladen swallow?':)
+    if speed == 24 mph
+        live()
