@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+
+import random
+
+print("magic 8 ball")
+
+anwsers = [
+    "Yes",
+    "No",
+    "Maybe",
+    "Yes bruuuuu",
+    "yes mun",
+    "no mun",
+    "no bruuuuu",
+    "out look ses no bru",
+    "yes no maybe so",
+    "take a break",
+    "stop before you go blind",
+    "just stop man",
+    "Better not tell you now",
+    "Most likely",
+    "Outlook good",
+    "Very doubtful",
+    "Concentrate and ask again",
+    "Most likely",
+    "Without a doubt",
+    "My sources say no"
+    ]
+
+while True:
+
+  question = input("ask me a question")
+
+  anwser = random.choice(anwsers)
+  print(anwser)

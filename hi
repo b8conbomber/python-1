@@ -1,0 +1,18 @@
+#!/usr/bin/env python3 
+
+import colors as C 
+
+yellow  = '\033[0;33m'
+orange  = '\033[1;31m'
+clear   = '\033[H\033[2J'
+ 
+print clear
+print(yellow + "Hi, what's your name?
+name = input (orange ' --> ')
+print( c. yellow + 'Well ' + name + ', nice to meet you.')
+
+
+
+
+
+
