@@ -18,27 +18,30 @@ def live():
     print(c.green + "Right, off you go then." + c.reset)
 
 def die():
-    print("Thou art cast into the Gorge of Eternal peril")
+    print(c.red + "Thou art cast into the Gorge of Eternal peril" + c.reset)
+name = prompt(c.red + 'What is your name?' + c.reset)
+quest = prompt(c.red + 'What is your quest?' + c.reset)
 
-name = prompt('What is your name? ')
-quest = prompt('What is your quest? ')
-
-if name ==['lancelot','galahad']:
-    color = prompt('What is your favorite color') 
+if name in ['lancelot','galahad']:
+    color = prompt(c.blue + 'What is your favorite color?'+ c.reset) 
     if color == 'blue':
         live()
-        print('Right of you go then')
     else:
         die()
 
 elif name == 'robin':
-    capital = prompt print('what is the capital of assyria')
-    if capital in ['assur',ashur
+    capital = prompt(c.blue + 'what is the capital of assyria?' + c.reset)
+    if capital in ['assur','ashur']:
         live()
     else:
         die()
 
-elif name == 'arthur 
-    speed = prompt('what is the air speed velocity of anladen swallow?':)
-    if speed == 24 mph
+elif name == 'arthur': 
+    speed = prompt(c.red + 'what is the air speed velocity of anladen swallow?' + c.reset)
+    if speed in ['24mph','african or european']: 
         live()
+    elif speed == 'what do you mean an african or european swallow?':
+        print('The Bridgekeeper is thrown into the Gorge of Eternal peril')
+        live()
+    else:
+        die() 
