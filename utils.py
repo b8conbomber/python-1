@@ -8,7 +8,7 @@ def ask(question,color=c.red):
     print(c.reset)
     return answer 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     print (c.clear)
     name = ask ("What is your name?")
     color = ask("What is your name in color?",c.random_color())
