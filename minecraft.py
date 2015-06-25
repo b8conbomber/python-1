@@ -7,22 +7,23 @@ intro = c.red + '''welcome to the quiz game
 ''' + c.reset
 
 def q1():
-    texture = ask('use one word to describe there magical fur') 
-    if  texture.startswith ("smile"):
+    pick = ask('how many diamonds are in a gold pick') 
+    if  texture.startswith ("0"):
         print('good job!!!!!!!!!!!!!!!!')
         return True
     return False
 
 def q2():
-    rainbows = ask('where are they dancing')
-    if  rainbows.startswith("rainbow"):
+    7 = ask('how much damige does a diamond
+    sowrd do im in the bad spellers club')
+    if  rainbows.startswith("7"):
         print('good job!!!!!!!!!!!!!!!')
         return True
     return False
 
 def q3():
-    color = ask(' what color are the unicorns')
-    if color == 'pink':
+    color = ask(' what color are the skys ' )
+    if color == 'blue':
         print('good job!!!!!!!!!!!!!!!!')
         return True
     return False
