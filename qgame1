@@ -7,4 +7,7 @@ print(c.clear + c.blue + '''
 welcome to qgame1
 ''')
 
-answer = ask('
+answer = ask('how many daimonds does it take to make a gold pickaxe')
+
+if answer == (" 'zero','0','none')
+

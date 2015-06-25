@@ -1,35 +1,17 @@
 #!/usr/bin/env python3
 
 import colors as c
+import fluffy as quiz
 import random
-from utils import ask
 
-print(c.clear + c.red + 'welcome to the quiz game' + c.reset)
+print(c.clear + quiz.intro) 
 
-def q1():
-    texture = ask('use one word to describe there magical fur') 
-    if  texture.startswith ("smile"):
-        print('good job!!!!!!!!!!!!!!!!')
-        return True
-    return False
-def q2():
-    rainbows = ask('where are they dancing')
-    if  rainbows.startswith("rainbow"):
-        print('good job!!!!!!!!!!!!!!!')
-        return True
-    return False
-def q3():
-    color = ask(' what color are the unicorns')
-    if color == 'pink':
-        print('good job!!!!!!!!!!!!!!!!')
-        return True
-    return False
+while quiz.questions:
+    questions_function =
+    if random.choice(quiz.questions)
+    if questions_function():
+    else:
+        print('right man')
 
-questions = [q1,q2,q3]
 
-while questions:
-    q = random.choice(questions)
-    correct = q()
-    if correct:
-        questions.remove(q)
-    
+
