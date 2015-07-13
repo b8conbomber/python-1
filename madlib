@@ -2,7 +2,9 @@
 
 text = '''
 I enjoy long, {noun1} in my {noun2}. I got sucked in to The forest.
-ther are mean {noun3} and my  favrit type of {noun4} you die sorry. 
+ther are mean {noun3} and my  favrit type of {noun4} you die sorry.
+You thot I wood make it so short ha. this story is {emotion}.
+
 '''
 
 words = {
@@ -10,6 +12,7 @@ words = {
     "noun2" : {},
     "noun3" : {},
     "noun4" : {},
+    "emotion" : {},
 }
 
 print(c.clear + c.red + '''
