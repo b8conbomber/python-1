@@ -6,6 +6,6 @@ import random
 
 while True:
     ending = ' ' * random.randint(1,20)
-    print(c.random_color() + 'Nyan', end=ending)
+    print(c.random_color() + 'jason is cool', end= ' ')
     
 

@@ -1,25 +1,28 @@
 #!/usr/bin/env python3
 
+import colors as c
+from utils  import ask
+
+
+print(c.clear + c.red + '''
+Welcome 
+''' + c.reset) 
+
 text = '''
 I enjoy long, {noun1} in my {noun2}. I got sucked in to The forest.
-ther are mean {noun3} and my  favrit type of {noun4} you die sorry.
+ther are mean {noun3} and my  favrit type of {animal} you die sorry.
 You thot I wood make it so short ha. this story is {emotion}.
 
 '''
 
 words = {
-    "noun1" : {},
-    "noun2" : {},
-    "noun3" : {},
-    "noun4" : {},
-    "emotion" : {},
+    "noun1" : None,
+    "noun2" : None,
+    "noun3" : None,
+    "animal" : None,
+    "emotion" : None
 }
 
-print(c.clear + c.red + '''
-Welcome 
-''' + c.reset 
-
-answer = {}
-for key in words:
-    desc = 
-    
+for keyword in words:
+    words[keyword] = ask(keyword.title().rstrip('0123456789') + ': ')
+print(text.format(**words))
