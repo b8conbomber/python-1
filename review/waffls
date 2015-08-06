@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+
+import colors as c
+
+print(c.clear + c.red + "DO you like WAFFLZ?" + c.reset)
+answer = input ("< ")
+
+if answer == 'yes':
+    print("cool bro")
+    print(c.red + "do you like pancake")
+    answer = input ("< ")
+    print(c.red + "do you like french toast")
+    answer = input ("< ")
+    if answer == 'yes':
+        if answer == 'yes':
+            pass
+        else:
+            print("I like french toast")
+    
+    else:
+        print("I like pancake")
+
+else: 
+    print("I like wafflZ") 
+
