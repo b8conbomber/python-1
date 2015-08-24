@@ -1,8 +1,7 @@
-#!/usr/bin/env python3 
-yellow="\033[0;33m"
-print(yellow + 'Hello world! ')
-cy="\033[0;36m"
-print(cy + 'Hello world! ')
+#!/usr/bin/env python3
 
+import colors as c
+
+print(c.clear + c.random() + "hello " + c.random() + "world") 
 
 
