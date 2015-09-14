@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+
+import colors as c
+import random
+
+print("""welcome to the magic 8ball
+Enter your question below:
+""")
+
+answers = [
+    "yes.",
+    "No. ",
+    "when donald trump dosent have a wig",
+    "whene pigs fly",
+    "whene bob marly is not famose",
+    "when I leve the bad spel clubs",
+    "whenn Durza takes of all his wrist bands",
+    "Maybe",
+    "most likely",
+    "outlook good",
+    "Ask agian later",
+    "you may die"
+    
+    ]
+
+while True:
+    input("-->")
+    answer = random.choice(answers)
+    print(answer)
