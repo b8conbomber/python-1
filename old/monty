@@ -2,7 +2,7 @@
 
 import colors as c
 
-print(c.clear + c.yellow + ''''
+print(c.clear + c.yellow + '''
 Who would cross the bridge of Death
 Must answer me these guestions three
 'Ere the other side he see.
