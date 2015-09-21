@@ -25,8 +25,15 @@ answers = [
 try:
 
     while True:
-        input("-->")
+        question = input("-->")
         answer = random.choice(answers)
         print(answer)
+        if "poop" in question:
+            print("hope you have a crapei day")
+        else:
+            answer = random.choice(answers)
+            input("-->")
+
 except KeyboardInterrupt:
     exit()
+
