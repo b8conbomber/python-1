@@ -33,4 +33,4 @@ while True:
         print("hope you have a crapei day")
     else:
         answer = random.choice(answers)
-        print(answer)
+        print(answers)
