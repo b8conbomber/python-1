@@ -23,7 +23,7 @@ answers = [
 
 
 def ask(prompt):
-    answers  = input(prompt).strip().lower()
+    answer = input(prompt).strip().lower()
     return answer 
 
 
