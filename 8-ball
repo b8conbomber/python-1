@@ -2,7 +2,6 @@
 
 import colors as c
 import random
-
 print("""welcome to the magic 8ball
 Enter your question below:
 """)
@@ -20,20 +19,18 @@ answers = [
     "outlook good",
     "Ask agian later",
     "you may die"
-    
-    ]
-try:
+]
 
-    while True:
-        question = input("-->")
+
+def ask(prompt):
+    answers  = input(prompt).strip().lower()
+    return answer 
+
+
+while True:
+    question = ask("answers")
+    if "poop" in question:
+        print("hope you have a crapei day")
+    else:
         answer = random.choice(answers)
         print(answer)
-        if "poop" in question:
-            print("hope you have a crapei day")
-        else:
-            answer = random.choice(answers)
-            input("-->")
-
-except KeyboardInterrupt:
-    exit()
-
