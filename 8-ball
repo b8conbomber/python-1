@@ -25,12 +25,16 @@ answers = [
 def ask(prompt):
     answer = input(prompt).strip().lower()
     return answer 
-
+def bye():
+    print("it was nice to see you")
+    exit()
 
 while True:
-    question = ask("answers")
+    question = ask('> ')
     if "poop" in question:
         print("hope you have a crapei day")
+    elif "bye" in question:
+        bye()
     else:
         answer = random.choice(answers)
-        print(answers)
+        print(answer)
